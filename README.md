@@ -1,5 +1,5 @@
 # evm-bridge
-Barebone, NOT production ready implementation of bridge/oracle implementation for educational purpose
+Barebone implementation of bridge/oracle for educational purpose
 
 This is an all-in-one repo for deploying a bridge contract/oracle (centralized oracle) between two EVM chains. 
 Currently, the Oracle implements one-directional logic (i.e., sending PoW-mined ether to PoS-mined ether). You can easily make it bidirectional by modifying the below implementation. 
