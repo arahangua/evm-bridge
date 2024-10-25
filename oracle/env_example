@@ -1,0 +1,10 @@
+POW_CONTRACT_ADDR=<deployed addr>
+POS_CONTRACT_ADDR=<deployed addr>
+
+POW_RPC_ENDPOINT=<rpc endpoint>
+POS_RPC_ENDPOINT=<rpc endpoint>
+
+POW_PRIVATE_KEY=<private key>
+POS_PRIVATE_KEY=<private key>
+
+ABI_JSON_PATH=<path  to abi json file> e.g, '../contract/ignition/deployments/chain-702/artifacts/BridgeModule#CombinedBridge.json'

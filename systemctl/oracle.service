@@ -1,0 +1,14 @@
+[Unit]
+Description=uzheth_oracle
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/evm-bridge/oracle
+User=ubuntu
+ExecStart=/usr/bin/python /home/ubuntu/evm-bridge/oracle/listener.py
+Restart=always
+RestartSec=15s
+
+[Install]
+WantedBy=multi-user.target

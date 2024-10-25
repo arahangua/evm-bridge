@@ -1,0 +1,13 @@
+# usual stuffs (.env)
+.env
+
+
+# python related
+__pycache__
+
+
+# logs
+job.log
+history
+logs
+.aider*
